@@ -1,6 +1,5 @@
 const inquirer = require('inquirer')
 const fs = require('fs')
-const generatemarkdown = require('./utils/generateMarkdown.js');
 //Create an array of questions for user input
 const questions = [
     {    
@@ -25,19 +24,19 @@ const questions = [
     },
     {
         type: 'input',
-        message: 'Please provide a description of the contribution guidelines for your project.',
-        name:
+        message: 'Please provide the contribution guidelines for your project.',
+        name: "contribution"
     },
     {
         type: 'input',
         message: 'Please provide instructions on how the project should be tested.',
-        name:
+        name: "instructions"
     },
     {
         type: 'input',
         message: 'Please provide the license used for the project.',
         name: 'list'
-    }
+    },
     {
         type: 'input',
         message: 'Please provide your GitHub username.',
