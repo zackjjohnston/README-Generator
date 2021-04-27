@@ -57,7 +57,7 @@ return `
 [![GitHub License](https://img.shields.io/badge/license-${answers.license}-green)](License.md)
 ## Description
 ${answers.description}
-## Table of Contents
+## Table of Contents  
 [Installation](#installation)  
 [Usage](#usage)  
 [Contribution](#contribution)  
